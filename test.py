@@ -2,7 +2,12 @@ from Boolean import boolean_front_number as front
 from Boolean import boolean_back_number as back
 from Boolean import boolean_only_one as oo
 
-print('모듈 사용 시작', end = '=' * 50) #모듈 사용 시작 문장 이전에 '==='를 넣는 방법은?
+for i in range(1, 40):
+    if i == 20:
+        print('모듈 사용 시작', end = '')
+    else :
+        print('=', end = '')
+
 
 a = int(input('\n숫자 입력:'))
 a_bit = int(input('이동시킬 비트 입력:'))
